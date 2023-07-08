@@ -11,7 +11,7 @@ if(!isset($user_id)){
 if(isset($_GET['logout'])){
    unset($user_id);
    session_destroy();
-   header('location:login.php');
+   header('location:index.php');
 }
 
 ?>
@@ -24,7 +24,7 @@ if(isset($_GET['logout'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
    
-   <link rel="stylesheet" href="css/style3.css">
+   <link rel="stylesheet" href="css/html.css">
   <link rel="stylesheet" href="css/style.css">
     <title>home</title>
 <link rel="stylesheet" href="css/nav.css">
@@ -50,12 +50,13 @@ if(isset($_GET['logout'])){
                         <li><a href="#">Porforlio </a></li>
                         <li><a href="#">Resume</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="home.php?logout=<?php echo $user_id; ?>">logout</a></li>
+                     
+                        <li><a href="index.php">Logout</a></li>
                     </ul>
                 </nav>
             </header>
        
-        </div>
+      
 <div class="container">
 
 <div class="profile">
@@ -118,30 +119,33 @@ if(isset($_GET['logout'])){
               <button type="submit" class="pop" >Submit </button>
               
             </form>
-            
+        </div>
             
     </div>
-    <div class="col-3">
-        <h3>CONTACT</h3>
-        <p>No 602,E.A Street <br> Masaka</p>
-        <div class="social-icons"> 
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instaram"></i>
-        <i class="fab fa-behance"></i>
-        </div>
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About </a>
+        <a href="#">Services </a>
+        <a href="#">Contact</a>
+        <a href="#"> Shop</a>
+        <a href="#">Blog</a>
+    </div>
    
     </div>
 
-    <script src="./js/my.js"></script>
+    <div class="footer2">
+                  
+                  <h1 id="last-line"> Copyright@ Rayida Tech 2023   </h1>
+                  
+                    </div>
+</div>
+
+
+</div>
+<script src="./js/my.js"></script>
     <script src="../js/pop.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 
-
-</div>
-
-
-</div>
 
 </body>
 </html>

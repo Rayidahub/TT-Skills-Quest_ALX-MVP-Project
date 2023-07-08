@@ -53,6 +53,9 @@
 .btn{
    background-color: var(--black );
 }
+.login{
+   background-color:#333;
+}
 
 .btn:hover{
    background-color: black;
@@ -163,7 +166,7 @@
 }
 
 .container .profile p a .btn{
-   color:var(--red);
+   color:white;
 }
 
 .container .profile p a:hover{
