@@ -200,6 +200,7 @@ if(isset($_GET['logout'])){
                     <div class="btn-group">
                         <a href="https://drive.google.com/file/d/1CpEsmkclByprRFU7HccHQ4DlYjLn6peF/view?usp=sharing" class="btn active"> Download CV</a>
                         <a href="https://wa.link/bk7bne" class="btn">Let's Chat</a>
+                        <a href="https://wa.link/bk7bne" class="btn">GitHub Project</a>
                     </div>
                     
                     </div>
