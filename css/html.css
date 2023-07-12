@@ -264,7 +264,7 @@ header{
     color: #fff; 
     background-color: #333;
     padding: 12px 25px;
-   
+   display: block;
     margin-left: 20px;
     margin-right: 7px;
     border-radius: 30px;
@@ -458,6 +458,7 @@ form button{
     border: 1px solid #007ced;
     padding: 10px;
     margin: 5px 0;
+    display: block;
     font-size: 15px;
     box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.945);
  
@@ -466,9 +467,12 @@ form button{
     border-color: #007ced;
     border: 3px solid #007ced;
     padding: 12px;
-   
+    display: block;
     font-size: 15px;
     box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.945);
+}
+.btn-group{
+   display: block;
 }
 
     .container{
@@ -570,6 +574,12 @@ form button{
         font-size: 22px;
         margin: 10px;
         cursor: pointer;
+    }
+    .wrapper{
+        width: 1280px;
+        min-width: 5%;
+        margin: 0 auto;
+        padding: 0 20px;
     }
     
 }
