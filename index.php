@@ -185,7 +185,7 @@
                     <div class="btn-group">
                         <a href="https://drive.google.com/file/d/1CpEsmkclByprRFU7HccHQ4DlYjLn6peF/view?usp=sharing" class="btn active"> Download CV</a>
                         <a href="https://wa.link/bk7bne" class="btn">Let's Chat</a>
-                        <a href="https://github.com/Rayidahub/TT-Skills-Quest_ALX-MVP-Project" class="btn">GitHub Project</a>
+                        <a href="https://docs.google.com/document/d/1saOe_6l1q7XyVIqTPHwmuvWei0awmZo4dnE-R3LR7WU/edit?usp=sharing" class="btn">GitHub Project</a>
                     </div>
                     
                     </div>
